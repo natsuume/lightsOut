@@ -1,0 +1,116 @@
+/* CSS files add styling rules to your content */
+
+body {
+	font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  
+	display: flex;
+	justify-content: center;
+	background-color: GrayText;
+  }
+  
+  .content {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 80vmin;
+	height: 95vmin;
+  }
+  
+  
+  .title {
+	background-color: white;
+	height: 5vmin;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .title h1{
+	font-size: 3vmin;
+	margin: 0;
+  }
+  
+  .config {
+	font-size: 2vmin;
+	background-color: Menu;
+	height: 5vmin;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .startMenu {
+	margin: 1vmin;
+	display: flex;
+	height: 3vmin;
+  }
+  
+  .startMenu p {
+	margin-top: 0px;
+  }
+  
+  .startMenu input {
+	width: 5vmin;
+  }
+  
+  .startMenu button {
+	height: 3vmin;
+  }
+  
+  .resetMenu {
+	margin: 1vmin;
+	height: 3vmin;
+  }
+  
+  .resetMenu button {
+	height: 3vmin;
+  }
+  
+  
+  .game {
+	background-color: #CCFFFF;
+	height: 85vmin;
+  }
+  
+  .score {
+	background-color: InfoBackground;
+	height: 5vmin;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .score p {
+	margin: 0px;
+	margin-left: 1vmin;
+	font-size: 3vmin;
+  }
+  
+  .board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 77vmin;
+	height: 77vmin;
+	margin: 1vmin;
+	padding-left: 1vmin;
+	padding-top: 1vmin;
+	background-color: white;
+  }
+  
+  .switch {
+	width: 14.4vmin;
+	height: 14.4vmin;
+	margin-right: 1vmin;
+	margin-bottom: 1vmin;
+  }
+  
+  .on {
+	background-color: yellow;
+  }
+  
+  .off {
+	background-color: gray;
+  }
+  
+  
+  
